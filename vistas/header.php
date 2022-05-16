@@ -7,7 +7,7 @@ if (strlen(session_id()) < 1)
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ADVentas | www.incanatoit.com</title>
+    <title>JOYERIA JULY</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -38,9 +38,9 @@ if (strlen(session_id()) < 1)
         <!-- Logo -->
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>AD</b>Ventas</span>
+          <span class="logo-mini"><b>JOYERIA JULY</b></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ADVentas</b></span>
+          <span class="logo-lg"><b>JOYERIA JULY</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -65,8 +65,8 @@ if (strlen(session_id()) < 1)
                   <li class="user-header">
                     <img src="../files/usuarios/<?php echo $_SESSION['imagen']; ?>" class="img-circle" alt="User Image">
                     <p>
-                      www.incanatoit.com - Desarrollando Software
-                      <small>www.youtube.com/jcarlosad7</small>
+                      www.chavito.com - Desarrollando Software
+                      <small>www.youtube.com/chavito</small>
                     </p>
                   </li>
                   
@@ -93,14 +93,14 @@ if (strlen(session_id()) < 1)
           <ul class="sidebar-menu">
             <li class="header"></li>
             <?php 
-            if ($_SESSION['escritorio']==1)
-            {
-              echo '<li id="mEscritorio">
-              <a href="escritorio.php">
-                <i class="fa fa-tasks"></i> <span>Escritorio</span>
-              </a>
-            </li>';
-            }
+            // if ($_SESSION['escritorio']==1)
+            // {
+            //   echo '<li id="mEscritorio">
+            //   <a href="escritorio.php">
+            //     <i class="fa fa-tasks"></i> <span>Escritorio</span>
+            //   </a>
+            // </li>';
+            // }
             ?>
 
             <?php 
@@ -172,36 +172,36 @@ if (strlen(session_id()) < 1)
             ?>
 
             <?php 
-            if ($_SESSION['consultac']==1)
-            {
-              echo '<li id="mConsultaC" class="treeview">
-              <a href="#">
-                <i class="fa fa-bar-chart"></i> <span>Consulta Compras</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li id="lConsulasC"><a href="comprasfecha.php"><i class="fa fa-circle-o"></i> Consulta Compras</a></li>                
-              </ul>
-            </li>';
-            }
+            // if ($_SESSION['consultac']==1)
+            // {
+            //   echo '<li id="mConsultaC" class="treeview">
+            //   <a href="#">
+            //     <i class="fa fa-bar-chart"></i> <span>Consulta Compras</span>
+            //     <i class="fa fa-angle-left pull-right"></i>
+            //   </a>
+            //   <ul class="treeview-menu">
+            //     <li id="lConsulasC"><a href="comprasfecha.php"><i class="fa fa-circle-o"></i> Consulta Compras</a></li>                
+            //   </ul>
+            // </li>';
+            // }
             ?>
 
              <?php 
-            if ($_SESSION['consultav']==1)
-            {
-              echo '<li id="mConsultaV" class="treeview">
-              <a href="#">
-                <i class="fa fa-bar-chart"></i> <span>Consulta Ventas</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li id="lConsulasV"><a href="ventasfechacliente.php"><i class="fa fa-circle-o"></i> Consulta Ventas</a></li>                
-              </ul>
-            </li>';
-            }
+            // if ($_SESSION['consultav']==1)
+            // {
+            //   echo '<li id="mConsultaV" class="treeview">
+            //   <a href="#">
+            //     <i class="fa fa-bar-chart"></i> <span>Consulta Ventas</span>
+            //     <i class="fa fa-angle-left pull-right"></i>
+            //   </a>
+            //   <ul class="treeview-menu">
+            //     <li id="lConsulasV"><a href="ventasfechacliente.php"><i class="fa fa-circle-o"></i> Consulta Ventas</a></li>                
+            //   </ul>
+            // </li>';
+            // }
             ?>
 
-            <li>
+            <!-- <li>
               <a href="ayuda.php">
                 <i class="fa fa-plus-square"></i> <span>Ayuda</span>
                 <small class="label pull-right bg-red">PDF</small>
@@ -212,7 +212,7 @@ if (strlen(session_id()) < 1)
                 <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
                 <small class="label pull-right bg-yellow">IT</small>
               </a>
-            </li>
+            </li> -->
                         
           </ul>
         </section>
